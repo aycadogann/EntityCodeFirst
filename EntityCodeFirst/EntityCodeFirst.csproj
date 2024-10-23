@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Entity\Context.cs" />
     <Compile Include="Entity\Kategori.cs" />
+    <Compile Include="Entity\Musteri.cs" />
     <Compile Include="Entity\Urun.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -63,6 +64,26 @@
     <Compile Include="Migrations\202410150657592_InitialCreate.cs" />
     <Compile Include="Migrations\202410150657592_InitialCreate.Designer.cs">
       <DependentUpon>202410150657592_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410230836038_CreateMusterisTable.cs" />
+    <Compile Include="Migrations\202410230836038_CreateMusterisTable.Designer.cs">
+      <DependentUpon>202410230836038_CreateMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410230844427_CreateMusteriSehirColumnInMusterisTable.cs" />
+    <Compile Include="Migrations\202410230844427_CreateMusteriSehirColumnInMusterisTable.Designer.cs">
+      <DependentUpon>202410230844427_CreateMusteriSehirColumnInMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410230913511_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs" />
+    <Compile Include="Migrations\202410230913511_RenameMusteriSoyadToMusteriUnvanInMusterisTable.Designer.cs">
+      <DependentUpon>202410230913511_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410230921220_RenameKategoriAdToKategoryAdiInKategorisTable.cs" />
+    <Compile Include="Migrations\202410230921220_RenameKategoriAdToKategoryAdiInKategorisTable.Designer.cs">
+      <DependentUpon>202410230921220_RenameKategoriAdToKategoryAdiInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410230924200_KategoriAdiToKategoiAdInKategorisTable.cs" />
+    <Compile Include="Migrations\202410230924200_KategoriAdiToKategoiAdInKategorisTable.Designer.cs">
+      <DependentUpon>202410230924200_KategoriAdiToKategoiAdInKategorisTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
